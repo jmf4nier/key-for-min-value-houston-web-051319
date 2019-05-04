@@ -7,9 +7,7 @@ ikea = {:chair => 25, :table => 85, :mattress => 450}
 
 def key_for_min_value(name_hash)
   name_hash.collect do |value|
-    new_array = []
-    new_array.push(value)
-    new_array
+    value
   end
 end
 
